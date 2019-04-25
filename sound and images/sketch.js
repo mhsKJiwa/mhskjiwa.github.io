@@ -8,7 +8,7 @@ function preload() {
 
 function setup() {
   // put setup code here
-  createCanvas(winodwWidth,windowHeight);
+  createCanvas(windowWidth,windowHeight);
   
    voice.setVolume(0.1);
    voice.play();
